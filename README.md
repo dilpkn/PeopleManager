@@ -20,7 +20,7 @@ MVC (Model-View-Controller) + DAO (Data Access Object)
 ## Структура проекта
 
 ### Java классы:
-
+```
 org.example/
 ├── config/
 │   ├── MySpringMvcDispatcherServletInitializer.java
@@ -32,15 +32,15 @@ org.example/
 │   └── PersonMapper.java
 └── models/
     └── Person.java
-    
+```
 ### Thymeleaf шаблоны:
-
+```
 WEB-INF/views/people/
 ├── index.html      # Список всех людей
 ├── show.html       # Детальная информация
 ├── new.html        # Форма создания
 └── edit.html       # Форма редактирования
-
+```
 ## База данных
 
 ### Таблица PostgreSQL:
@@ -75,9 +75,13 @@ CREATE TABLE person (
 |  **Обновление** | `PATCH` | `/people/{id}` | Обновить данные человека в базе данных |
 |  **Удаление** | `DELETE` | `/people/{id}` | Удалить человека из базы данных |
 
-<img width="289" height="214" alt="image" src="https://github.com/user-attachments/assets/09641e10-4626-40a4-9136-884d166e6483" />
 
-<img width="378" height="130" alt="image" src="https://github.com/user-attachments/assets/15eb3b03-635d-48ad-9be6-f23a48e86417" />
+
+- <img width="289" height="214" alt="image" src="https://github.com/user-attachments/assets/09641e10-4626-40a4-9136-884d166e6483" />
+
+
+
+- <img width="378" height="130" alt="image" src="https://github.com/user-attachments/assets/15eb3b03-635d-48ad-9be6-f23a48e86417" />
 
 
 ### Валидация данных:
