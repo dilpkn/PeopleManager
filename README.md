@@ -8,7 +8,7 @@
 ###  Основные технологии:
 - **Java** + **Spring Framework 5.2.1**
 - **Spring MVC** (Model-View-Controller)
-- **Spring JDBC** для работы с базой данных
+- **JDBC Template** для работы с базой данных
 - **Thymeleaf 3.0** (шаблонизатор)
 - **HTML5**
 - **PostgreSQL 42.2** (база данных)
