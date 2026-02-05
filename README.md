@@ -12,6 +12,7 @@
 - **Thymeleaf 3.0** (шаблонизатор)
 - **PostgreSQL 42.2** (база данных)
 - **Hibernate Validator 6.1** (валидация)
+- **Apache Tomcat 9+** (сервер)
 - **Servlet API 4.0**
 
 ###  Архитектура:
