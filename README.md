@@ -10,6 +10,7 @@
 - **Spring MVC** (Model-View-Controller)
 - **Spring JDBC** для работы с базой данных
 - **Thymeleaf 3.0** (шаблонизатор)
+- **HTML5**
 - **PostgreSQL 42.2** (база данных)
 - **Hibernate Validator 6.1** (валидация)
 - **Apache Tomcat 9+** (сервер)
